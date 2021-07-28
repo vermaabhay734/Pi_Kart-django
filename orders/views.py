@@ -7,8 +7,8 @@ import datetime
 from .models import Order, Payment, OrderProduct
 import json
 from store.models import Product
-# from django.core.mail import EmailMessage
-# from django.template.loader import render_to_string
+from django.core.mail import EmailMessage
+from django.template.loader import render_to_string
 
 
 def payments(request): 
@@ -57,24 +57,24 @@ def payments(request):
 
     # Clear cart
     CartItem.objects.filter(user=request.user).delete()
-    return render(request, 'orders/payments.html')
 
-#     # Send order recieved email to customer
-#     mail_subject = 'Thank you for your order!'
-#     message = render_to_string('orders/order_recieved_email.html', {
-#         'user': request.user,
-#         'order': order,
-#     })
-#     to_email = request.user.email
-#     send_email = EmailMessage(mail_subject, message, to=[to_email])
-#     send_email.send()
-
-#     # Send order number and transaction id back to sendData method via JsonResponse
+    # Send order recieved email to customer
+    mail_subject = 'Thank you for your order!'
+    message = render_to_string('orders/order_recieved_email.html', {
+        'user': request.user,
+        'order': order,
+    })
+    to_email = request.user.email
+    send_email = EmailMessage(mail_subject, message, to=[to_email])
+    send_email.send()
+    
+# Send order number and transaction id back to sendData method via JsonResponse
 #     data = {
 #         'order_number': order.order_number,
 #         'transID': payment.payment_id,
 #     }
 #     return JsonResponse(data)
+    return render(request, 'orders/payments.html')
 
 def place_order(request, total=0, quantity=0,):
     # return HttpResponse('ok')
