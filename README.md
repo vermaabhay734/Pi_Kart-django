@@ -34,13 +34,43 @@ Pi-Kart is a web application developed using Python, Django, and PostgreSQL, aim
 ### Payment Integration
 - Payment transactions are facilitated through the PayPal gateway to ensure secure and reliable payment processing.
 
-## Portfolio Snapshot
-![Portfolio Snapshot]()
-![Portfolio Snapshot]()
-![Portfolio Snapshot]()
-![Portfolio Snapshot]()
-![Portfolio Snapshot]()
+## Project Screenshots
 
+### Admin
+
+![Admin Dashboard](screenshots/admin/dashboard.png "Admin Dashboard")
+![Manage Products](screenshots/admin/manage_products.png "Manage Products")
+![Handle Complaints](screenshots/admin/handle_complaints.png "Handle Complaints")
+
+### Authentication
+
+![Login](screenshots/authentication/login.png "Login")
+![Signup](screenshots/authentication/signup.png "Signup")
+![Forgot Password](screenshots/authentication/forgot_password.png "Forgot Password")
+![Email Verification](screenshots/authentication/email_verification.png "Email Verification")
+
+### Database
+
+![Database Schema](screenshots/database/database_schema.png "Database Schema")
+![Sample Data](screenshots/database/sample_data.png "Sample Data")
+
+### Hacker Login Attempt
+
+![Hacker Login Attempt](screenshots/hacker-login-attempt/hacker_attempt.png "Hacker Login Attempt")
+
+### Payment
+
+![Payment Gateway](screenshots/payment/payment_gateway.png "Payment Gateway")
+![Transaction Confirmation](screenshots/payment/transaction_confirmation.png "Transaction Confirmation")
+
+### Pi-Kart
+
+![Homepage](screenshots/pi-kart/homepage.png "Homepage")
+![Product Details](screenshots/pi-kart/product_details.png "Product Details")
+![Categories](screenshots/pi-kart/categories.png "Categories")
+![Contact Us](screenshots/pi-kart/contact_us.png "Contact Us")
+
+For more screenshots, please refer to the [snapshot folder](pi-kart-screenshot) in the repository.
 
 ## Setup Instructions
 1. Clone the repository: `git clone [repository_url]`
@@ -62,9 +92,7 @@ Pi-Kart is a web application developed using Python, Django, and PostgreSQL, aim
 - PayPal SDK (for payment integration)
 
 ## Contributors
-- [Your Name/Username]
+- **Portfolio**: [Abhay Verma](https://vermaabhay734.github.io/abhay/)
 
-## License
-[Specify the license under which the project is distributed, e.g., MIT License, GNU General Public License, etc.]
 
 ---
