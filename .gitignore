@@ -126,7 +126,7 @@ venv.bak/
 pythonenv*
 
 # images
-/pi-kart-screenshot
+# /pi-kart-screenshot
 
 # Spyder project settings
 .spyderproject
