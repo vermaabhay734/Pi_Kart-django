@@ -65,10 +65,12 @@ Pi-Kart is a web application developed using Python, Django, and PostgreSQL, aim
 
 ### Pi-Kart
 
-![Homepage](screenshots/pi-kart/homepage.png "Homepage")
-![Product Details](screenshots/pi-kart/product_details.png "Product Details")
-![Categories](screenshots/pi-kart/categories.png "Categories")
-![Contact Us](screenshots/pi-kart/contact_us.png "Contact Us")
+![Homepage](/pi-kart-screenshot/Pi-Kart/HomePage.jpg "Homepage")
+![Product Details](/pi-kart-screenshot/Pi-Kart/Producs.jpg "Product")
+![Product Details](/pi-kart-screenshot/Pi-Kart/Product_detail.jpg "Product Details")
+![Cart](/pi-kart-screenshot/Pi-Kart/cart.jpg "Cart")
+![My Order](/pi-kart-screenshot/Pi-Kart/My_order.jpg "My Order")
+![Invoice](/pi-kart-screenshot/Pi-Kart/Invoice.jpg "Invoice")
 
 For more screenshots, please refer to the [snapshot folder](pi-kart-screenshot) in the repository.
 
