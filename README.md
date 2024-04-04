@@ -36,32 +36,15 @@ Pi-Kart is a web application developed using Python, Django, and PostgreSQL, aim
 
 ## Project Screenshots
 
-### Admin
-
-![Admin Dashboard](screenshots/admin/dashboard.png "Admin Dashboard")
-![Manage Products](screenshots/admin/manage_products.png "Manage Products")
-![Handle Complaints](screenshots/admin/handle_complaints.png "Handle Complaints")
-
 ### Authentication
 
-![Login](screenshots/authentication/login.png "Login")
-![Signup](screenshots/authentication/signup.png "Signup")
-![Forgot Password](screenshots/authentication/forgot_password.png "Forgot Password")
-![Email Verification](screenshots/authentication/email_verification.png "Email Verification")
+![Login](/pi-kart-screenshot/Authentication/Registration.jpg "Login")
+![Email Verification](/pi-kart-screenshot/Authentication/Verification_mail.jpg "Email Verification")
+![Verification Link](/pi-kart-screenshot/Authentication/Verification_link.jpg "Verification Link")
+![Registration Verified](/pi-kart-screenshot/Authentication/Registration_verified.jpg "Registration Verified")
+![Login](/pi-kart-screenshot/Authentication/Sign_in.jpg "Login")
+![Change Password](/pi-kart-screenshot/Authentication/Change_Password.jpg "Change Password")
 
-### Database
-
-![Database Schema](screenshots/database/database_schema.png "Database Schema")
-![Sample Data](screenshots/database/sample_data.png "Sample Data")
-
-### Hacker Login Attempt
-
-![Hacker Login Attempt](screenshots/hacker-login-attempt/hacker_attempt.png "Hacker Login Attempt")
-
-### Payment
-
-![Payment Gateway](screenshots/payment/payment_gateway.png "Payment Gateway")
-![Transaction Confirmation](screenshots/payment/transaction_confirmation.png "Transaction Confirmation")
 
 ### Pi-Kart
 
@@ -72,7 +55,47 @@ Pi-Kart is a web application developed using Python, Django, and PostgreSQL, aim
 ![My Order](/pi-kart-screenshot/Pi-Kart/My_order.jpg "My Order")
 ![Invoice](/pi-kart-screenshot/Pi-Kart/Invoice.jpg "Invoice")
 
-For more screenshots, please refer to the [snapshot folder](pi-kart-screenshot) in the repository.
+
+### Payment
+
+![Choose Payment Gateway](/pi-kart-screenshot/Payment/Credit_debit_card.jpg "Choose Payment Gateway")
+![Payment Gateway](/pi-kart-screenshot/Payment/Paynow.jpg "Payment Gateway")
+![Paypal Payment Gateway](/pi-kart-screenshot/Payment/Paypal_payment.jpg "Paypal Payment Gateway")
+![Transaction Confirmation](/pi-kart-screenshot/Payment/Payment_sucessfull.jpg "Transaction Confirmation")
+![Transaction Confirmation](/pi-kart-screenshot/Payment/Payment_sucessfull2.jpg "Transaction Confirmation")
+![Admin Review](/pi-kart-screenshot/Payment/payment_detail-data-in-admin.jpg "Admin Review")
+
+
+### Hacker Login Attempt
+
+![Hacker Login Attempt](/pi-kart-screenshot/hacker-login-attempt/hacker-login-attempt.jpg "Hacker Login Attempt")
+![HoneyPot](/pi-kart-screenshot/hacker-login-attempt/honeypot.jpg "HoneyPot")
+
+
+### Admin
+
+![Admin Login](/pi-kart-screenshot/Admin/Django_admin.jpg "Admin Login")
+![Admin Dashboard](/pi-kart-screenshot/Admin/Administration.jpg "Admin Dashboard")
+![Manage Products](/pi-kart-screenshot/Admin/Admin_product.jpg "Manage Products")
+![Manage Products](/pi-kart-screenshot/Admin/all_product_variation.jpg "All Products")
+![Manage Products](/pi-kart-screenshot/Admin/Admin_payment.jpg "Payment")
+![Manage Products](/pi-kart-screenshot/Admin/Admin_category.jpg "Category")
+![Manage Products](/pi-kart-screenshot/Admin/Admin-user_account_info_data.jpg "User Account Info")
+
+
+### Database
+
+![Database Schema](/pi-kart-screenshot/database/database-.jpg "Database Schema")
+![Database Schema](/pi-kart-screenshot/database/database-1.jpg "Database Schema")
+![Account Detail](/pi-kart-screenshot/database/database_account_detail.jpg "Account Detail")
+![Payment](/pi-kart-screenshot/database/database_payment.jpg "Payment")
+![Product](/pi-kart-screenshot/database/database_product.jpg "Product")
+![Database_Variation](/pi-kart-screenshot/database/database_variation.jpg "Database_Variation")
+![Review_Rating](/pi-kart-screenshot/database/database_reviewrating_data.jpg "Review_Rating")
+![HoneyPot Schema](/pi-kart-screenshot/database/database-honeypot_detail.jpg "HoneyPot Schema")
+
+
+For more screenshots, please refer to the [pi-kart-screenshot](https://github.com/vermaabhay734/Pi_Kart-django/tree/main/pi-kart-screenshot) in the repository.
 
 ## Setup Instructions
 1. Clone the repository: `git clone [repository_url]`
